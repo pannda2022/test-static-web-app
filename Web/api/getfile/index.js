@@ -1,6 +1,6 @@
 module.exports = async function (context, req) {
     request.get({
-        url: `${CONFIG.api.speechMark}/file/download?filePath=${req.body.filePath}`,
+        url: `https://testblobstorage2022cxw.blob.core.windows.net/testcontainer/test.json`,
         json: req.body,
         gzip:true,
         headers:{
