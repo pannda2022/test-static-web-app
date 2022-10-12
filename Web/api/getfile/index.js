@@ -2,7 +2,7 @@ var m_https = require("https");
     
 module.exports = async function (context, req) {
     //var url = "http://localhost:60430/" + req.query.name;
-    var url = "https://testblobstorage2022cxw.blob.core.windows.net/testcontainer/" + req.query.name;
+    var url = "https://testblobstorage2022cxw2.blob.core.windows.net/testcontainer/" + req.query.name;
     var type = "";
     var resData = "";
     let synchronous_post = function (url, params) {
